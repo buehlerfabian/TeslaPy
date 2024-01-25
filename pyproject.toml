@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "teslapy"
+version = "0.1.0"
+description = ""
+authors = ["Fabian Bühler <buehler.fabian@gmx.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+certifi = "2022.9.24"
+charset-normalizer = "2.1.1"
+requests = "2.28.1"
+urllib3 = "1.26.12"
+websocket-client = "1.4.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
